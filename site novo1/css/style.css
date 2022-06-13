@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: inherit;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    top: 0;
+    justify-content: space-between;
+    background-color: rgb(44, 40, 43);
+    width: 100%;
+    display: flex;
+}
+
+header img {
+    margin-left: 2em;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: azure;
+    font-size: 20px;
+    font-family: "firal code", Arial, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: gray;
+}
+
+.banner {
+    display: flex;
+    background-image: url('../Imagens/fundo1.jpg');
+    background-size: cover;
+    flex-flow: column wrap;
+    align-items: center;
+    background-attachment: fixed;
+    gap: 50px;
+}
+
+.banner label {
+    text-align: center;
+    padding-inline: 100px;
+    font-family: arial;
+    color: white;
+}
+
+.pequeno1 {
+    font-size: 35px;
+}
+
+.grande1 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.gradiente {
+    background: radial-gradient(rgb(255, 67, 54), rgb(95, 4, 1)) fixed;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.containerbanner {
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias {
+    margin-top: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.categorias img {
+    width: 100%;
+}
+
+.categorias a {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+.oferecemos {
+    display: flex;
+    flex-flow: row wrap;
+}
